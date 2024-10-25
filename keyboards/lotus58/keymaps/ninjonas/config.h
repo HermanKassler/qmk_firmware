@@ -1,4 +1,6 @@
 /*
+This is the c configuration file for the keymap
+
 Copyright 2012 Jun Wako <wakojun@gmail.com>
 Copyright 2015 Jack Humbert
 
@@ -18,18 +20,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#include "config_common.h"
+/* Select hand configuration */
 
+#define MASTER_LEFT
+// #define MASTER_RIGHT
+// #define EE_HANDS
 
+#define USE_SERIAL_PD2
+#define TAPPING_FORCE_HOLD
 
-#if !defined(NO_ACTION_MACRO)
-    #define NO_ACTION_MACRO
-#endif
-#if !defined(NO_ACTION_FUNCTION)
-    #define NO_ACTION_FUNCTION
-#endif
-
-#define DIODE_DIRECTION COL2ROW
-
-// Use the lily version to get the Lily58 logo instead of the qmk logo
-#define OLED_FONT_H "lib/glcdfont_lily.c"
+#define OLED_FONT_H "keyboards/lily58/lib/glcdfont.c"
+#define OLED_DISABLE_TIMEOUT

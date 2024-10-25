@@ -1,7 +1,7 @@
 #pragma once
 
-#ifdef KEYBOARD_lily58_rev1
-    #include "rev1.h"
+#ifdef KEYBOARD_lily58_lotus
+    #include "lotus.h"
 #elif KEYBOARD_lily58_light
     #include "light.h"
 #endif

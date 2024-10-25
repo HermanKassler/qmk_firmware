@@ -16,8 +16,10 @@ NKRO_ENABLE = no            # Enable N-Key Rollover
 BACKLIGHT_ENABLE = no      # Enable keyboard backlight functionality
 AUDIO_ENABLE = no           # Audio output
 RGBLIGHT_ENABLE = no       # Enable WS2812 RGB underlight.
-OLED_ENABLE = yes
+OLED_ENABLE = no
 OLED_DRIVER = SSD1306    # OLED display
 SPLIT_KEYBOARD = yes
+ENCODER_ENABLE = yes
 
-DEFAULT_FOLDER = lily58/rev1
+DEFAULT_FOLDER = lily58/lotus
+

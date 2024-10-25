@@ -20,6 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "config_common.h"
 
+#define SERUAL_USE_MULTI_TRANSACTION
 
 
 #if !defined(NO_ACTION_MACRO)
